@@ -17,11 +17,11 @@ Predict unknown ratings and recommend movies to users based on a dataset of user
 ### Result
 | K = 30 | RMSE | MAE | Precision@k | Recall@k | F1 | MAP@K | NDCG |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Content-based](src/Content_based.ipynb) | 0.004732 |	0.044239 |	0.048462 |	0.017796 | 0.965038 |	0.753001 |	0.255647 |
-| [User-User](src/User_user_Collaborative.ipynb) | 0.146126	| 0.475077 |	0.411771 |	0.219145 | N/A |	N/A |	N/A |
-| [Item-Item](src/Item_Item_ColaborativeFiltering.ipynb) | 0.132478	| 0.441997 |	0.388229 |	0.212522 | N/A |	N/A |	N/A |
-| [MFGD](src/Matrix_Factorization_For_RS.ipynb) | 0.025503 |	0.147866 |	0.130329 |	0.053824 | 0.943084 |	0.744337 |	0.285308 |
-| [MFSVD](src/Matrix_Factorization_For_RS.ipynb) | 0.088526 | 0.419846 | 0.379626 | 0.144336 | N/A | N/A | N/A |
+| [Content-based](src/Content_based.ipynb) | 1.03 | 0.91 | 0.63 | 0.59 | 0.58 | 0.73 | 0.77 |
+| [User-User](src/User_user_Collaborative.ipynb) | 0.97 | 0.78 | 0.65 | 0.66 | 0.62 | 0.73 | 0.90 |
+| [Item-Item](src/Item_Item_ColaborativeFiltering.ipynb) |  0.91 | 0.75 | 0.59 | 0.54 | 0.54 | 0.65 | 0.87 |
+| [MFGD](src/Matrix_Factorization_For_RS.ipynb) | 1.03 | 0.81 | 0.54 | 0.91 | 0.66 | 0.65 | 0.82 |
+| [MFSVD](src/Matrix_Factorization_For_RS.ipynb) |  0.95 | 0.75 | 0.65 | 0.73 | 0.65 | 0.73 | 0.92 |
 
 
 ## Contributors
