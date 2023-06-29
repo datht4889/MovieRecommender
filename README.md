@@ -15,7 +15,7 @@ Predict unknown ratings and recommend movies to users based on a dataset of user
 
 
 ### Result
-| K = 30 | RMSE | MAE | Precision@k | Recall@k | F1 | MAP@K | NDCG |
+| K = 30 | RMSE | MAE | Precision | Recall | F1 | MAP | NDCG |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Content-based](src/Content_based.ipynb) | 1.03 | 0.91 | 0.63 | 0.59 | 0.58 | 0.73 | 0.77 |
 | [User-User](src/User_user_Collaborative.ipynb) | 0.97 | 0.78 | 0.65 | 0.66 | 0.62 | 0.73 | 0.90 |
