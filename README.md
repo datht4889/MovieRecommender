@@ -19,7 +19,7 @@ Predict unknown ratings and recommend movies to users based on a dataset of user
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Content-based](src/Content_based.ipynb) | 1.03 | 0.91 | 0.63 | 0.59 | 0.58 | 0.73 | 0.77 |
 | [User-User](src/User_user_Collaborative.ipynb) | 0.97 | 0.78 | 0.65 | 0.66 | 0.62 | 0.73 | 0.90 |
-| [Item-Item](src/Item_Item_ColaborativeFiltering.ipynb) |  0.91 | 0.75 | 0.59 | 0.54 | 0.54 | 0.65 | 0.87 |
+| [Item-Item](src/Item_Item_ColaborativeFiltering.ipynb) |  0.91 | 0.75 | 0.64 | 0.60 | 0.58 | 0.70 | 0.87 |
 | [MFGD](src/Matrix_Factorization_For_RS.ipynb) | 1.03 | 0.81 | 0.54 | 0.91 | 0.66 | 0.65 | 0.82 |
 | [MFSVD](src/Matrix_Factorization_For_RS.ipynb) |  0.95 | 0.75 | 0.65 | 0.73 | 0.65 | 0.73 | 0.92 |
 
